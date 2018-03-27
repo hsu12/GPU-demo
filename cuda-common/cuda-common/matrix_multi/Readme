@@ -1,0 +1,2 @@
+nvcc -o exe shared_memory_multi.cu 
+./exe

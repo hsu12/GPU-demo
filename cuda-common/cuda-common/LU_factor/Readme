@@ -1,0 +1,5 @@
+nvcc -o LU matrix.cu 
+
+
+./LU 64 64 0.5 0.5 256// 256 threads
+./LU 64 64 0.5 0.5 1//single thread
